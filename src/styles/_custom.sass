@@ -1,15 +1,38 @@
+.img-fija
+  position: absolute
+  bottom: 0px
+  right: 10%
+  max-width: 76%
+.circulo
+  animation: spin 17s linear infinite
+  position: absolute
+  bottom: 4%
+  right: 11%
+  max-width: 72%
+@keyframes spin
+  0%
+    transform: rotate(0deg)
+  100%
+    transform: rotate(360deg)
 .banner-principal-decorativo
   &-1
-    animation: float1 3.5s ease-in-out infinite alternate
+    animation: float1 3s ease-in-out infinite alternate
     position: absolute
-    top: 20%
-    right: 10%
+    top: 40%
+    right: 15%
+    width: 16%
   &-2
     animation: float1 2.8s ease-in-out infinite alternate
     position: absolute
-    top: 51%
-    right: 30%
-
+    top: 12%
+    right: 59%
+    width: 17%
+  &-3
+    animation: float1 2.6s ease-in-out infinite alternate
+    position: absolute
+    top: 71%
+    right: 56%
+    width: 18%
 @keyframes float1
   0%
     transform: translateY(20px)
@@ -18,13 +41,131 @@
   
 
 .banner-principal .tarjeta
-  background-position: left 50% !important
-.banner-principal__row .banner-principal__img
-  width: 400px !important  
+  background-position: left 50% !important 
 .titulo-principal.color-acento-contenido .titulo-principal__numero span
   color: white !important   
 .banner-interno__titulo__icono i
-  color: $color-primario
+  color: $color-secundario
 figcaption
   font-weight: normal
- 
+.barra-avance__boton--regresar span
+  color: $white !important
+.titulo-principal.color-acento-contenido .titulo-principal__numero span
+  color: $color-sistema-texto !important
+
+.banner-interno__fondo
+  background-image: url('../assets/curso/portada/mini-portada.png') !important
+.fa-lista
+  li
+    display: flex !important
+  li:before
+    position: relative
+    margin-right: 7px
+    font-size: 1.4rem 
+.lista-ul--color.color-primario li > i:first-of-type  
+  color: $color-primario
+.lista-ul--color.color-secundario li > i:first-of-type  
+  color: $color-secundario       
+.lista-ol--cuadro.color-primario .lista-ol--cuadro__vineta
+  background-color: $color-primario
+.bg-color-acento-contenido
+  background-color: $color-acento-contenido
+.bg-color-primario
+  background-color: $color-primario
+.bg-color-secundario
+  background-color: $color-secundario
+.bg-color-sistema-texto
+  background-color: #12263F
+.w-fit
+  width: fit-content
+.columns-2
+  columns: 2
+.tc-sec 
+  color: $color-secundario !important
+.tc-ac 
+  color: $color-acento-contenido !important
+.font-italic
+  font-style: italic !important
+.sin-borde
+  border: 0px !important
+
+
+.bg1
+  background-color: #F8E29E
+.bg2
+  background-color: #DBE8E4
+.bg3
+  background-color: #DAF2E4
+
+.bg-textura  
+  background-image: url('../assets/curso/temas/t1/textura.png')
+  background-repeat: no-repeat
+  background-size: cover
+.bgc-1
+  background-image: url('../assets/curso/temas/intro/bgc.png')
+  background-position: bottom
+  background-size: 100% 100%
+  background-repeat: no-repeat
+  margin-inline: -3.4rem
+  @media screen and (max-width: 992px)
+    margin-inline: -3rem  
+    background-size: cover 
+  @media screen and (max-width: 767px)
+    margin-inline: -1.4rem  
+    background-size: cover 
+.bgc-2
+  background-image: url('../assets/curso/temas/t1/bgc.png')
+  background-position: bottom
+  background-size: 100% 100%
+  background-repeat: no-repeat
+  margin-inline: -3.4rem
+  @media screen and (max-width: 992px)
+    margin-inline: -3rem  
+    background-size: cover 
+  @media screen and (max-width: 767px)
+    margin-inline: -1.4rem  
+    background-size: cover 
+
+
+.w-90px
+  width: 90px  
+.w-140px
+  width: 140px
+.mn-20
+  margin-top: -20%
+.subt2
+  background-color: #CCDD63
+  width: fit-content
+  padding: 2px 8px
+.subt3
+  background-color: #FFF
+  width: fit-content
+  padding: 2px 15px
+  
+
+.tarjeta.color-primario.color-sistema-texto *
+  color: $color-sistema-texto
+
+
+/* TEMA 1 */
+.tarj1-hover
+  position: relative
+  transition: all 0.3s ease-out
+  &:hover 
+    background-color: #B7D1CA
+    transition: all 0.3s ease-out
+    .img1
+      opacity: 0
+      transition: all 0.3s ease-out
+    .img2
+      opacity: 1 !important  
+      transition: all 0.3s ease-out
+  .imgs-hover 
+    height: 90px
+    display: flex
+    justify-content: center
+    img
+      position: absolute
+    .img2
+      opacity: 0
+      transition: all 0.3s ease-out

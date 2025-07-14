@@ -96,6 +96,14 @@ figcaption
   background-color: #DBE8E4
 .bg3
   background-color: #DAF2E4
+.bg4
+  background-color: #F9FBEE
+.bg5
+  background-color: #EFFAF4
+.bg6
+  background-color: #F4CD57
+.bg7
+  background-color: #D6E482
 
 .bg-textura  
   background-image: url('../assets/curso/temas/t1/textura.png')
@@ -124,7 +132,19 @@ figcaption
     background-size: cover 
   @media screen and (max-width: 767px)
     margin-inline: -1.4rem  
+    background-size: cover
+.bgc-3
+  background-image: url('../assets/curso/temas/t2/bgs.png')
+  background-position: bottom
+  background-size: 100% 100%
+  background-repeat: no-repeat
+  margin-inline: -3.4rem
+  @media screen and (max-width: 992px)
+    margin-inline: -3rem  
     background-size: cover 
+  @media screen and (max-width: 767px)
+    margin-inline: -1.4rem  
+    background-size: cover  
 
 
 .w-90px
@@ -133,6 +153,34 @@ figcaption
   width: 140px
 .mn-20
   margin-top: -20%
+.subt
+  display: flex
+  align-items: center
+  position: relative
+  width: fit-content
+  img
+    width: 60px
+  &::after
+    content: ''
+    position: absolute
+    background-color: $color-acento-contenido
+    border-top-right-radius: 200px
+    width: 90%
+    height: 70%
+    top: 10px
+    right: 0px    
+    z-index: 0
+  h3, img
+    z-index: 999  
+    position: relative
+  @media (max-width: $bp-max-sm)
+    &::after
+      height: 93%
+      top: 2px
+  @media (max-width: $bp-max-xs)
+    &::after
+      height: 98%
+      top: 0px
 .subt2
   background-color: #CCDD63
   width: fit-content
@@ -145,6 +193,48 @@ figcaption
 
 .tarjeta.color-primario.color-sistema-texto *
   color: $color-sistema-texto
+.acordion
+  &__activo
+    background-color: #F8E29E
+  &__accion__btn--a
+    background-color: #9028E2
+    i
+      color: #FFF
+.tabs-a
+  &__tab
+    background-color: #CCDD63
+    &:hover, &:focus
+      color: #FFF !important
+    &__selected
+      color: #FFF !important
+.tabs-b
+  border-bottom: 0px
+  &__tab img
+    filter: brightness(1)
+    transition: all 0.3s ease-out
+  &__tab--active img
+    filter: brightness(0.5)
+    transition: all 0.3s ease-out
+.circl-arrow .slyder-f__btn i
+  font-size: 1.2rem
+  background-color: $color-acento-botones
+  color: $white
+  height: 46px
+  width: 46px
+  padding: 5px
+  border-radius: 500px
+  display: flex
+  justify-content: center
+  align-items: center
+.linea-tiempo-d
+  &__item__number
+    background-color: #F4CD57
+  &__item__content__title
+    background-color: #F4CD57
+  &__item--selected
+    .linea-tiempo-d__item
+      &__content, &__content__title
+        background-color: #E5EEB0 !important
 
 
 /* TEMA 1 */
@@ -169,3 +259,91 @@ figcaption
     .img2
       opacity: 0
       transition: all 0.3s ease-out
+/* Imagen en listado */     
+.lista-ul--color 
+  list-style: none
+  padding-left: 0
+  li 
+    position: relative
+    padding-left: 2rem 
+    margin-bottom: 1rem
+    .icono-lista 
+      position: absolute
+      left: 0
+      top: 0.2rem 
+      width: 1.2rem 
+      height: auto 
+    span.mb-0 
+      display: inline-block
+/* TEMA 2 */
+.cursor-pointer.crd_hover_txt
+  cursor: pointer
+.crd_hover_txt
+  position: relative  
+  padding: 0 !important
+  overflow: hidden !important  
+  &:hover    
+    .crd_hover_txt--body   
+      transition: all 0.5s cubic-bezier(0.42, 0, 0.58, 1) 
+      transform: translateY(0)
+      background-color: #F8E29E  
+      background-image: url('../assets/curso/temas/t1/textura.png')
+      background-repeat: no-repeat
+      background-size: cover
+      h4 
+        color: $color-sistema-texto
+  .crd_hover_txt--body
+    position: absolute
+    padding: 1.5rem
+    bottom: 0    
+    transition: all 0.5s cubic-bezier(0.42, 0, 0.58, 1)
+    transform: translateY(calc( 100% - 3.85rem ))
+    background-color: #366356
+    h4
+      color: #FFF
+  @media (min-width:1200px) and (max-width:1400px)  
+    .crd_hover_txt--body
+      p
+        font-size: 0.85em
+/* Tema 2 Tarj. Conectadas */ 
+.avatar
+  position: absolute
+  bottom: 0
+  right: -12rem
+  z-index: 1
+  @media (max-width: 1000px)
+    display: none
+.crd--avatarHorizontal
+  position: relative
+  padding-right: 12rem
+  & > *
+    position: relative
+  h5
+    color: #7F4FC7
+  p
+    margin-bottom: 0
+  &::before
+    position: absolute
+    content: ''
+    top: 0
+    right: 0
+    width: calc( 100% - 60px)
+    height: 100%
+    background-color: #F7DB87
+  @media (max-width: $bp-max-md)
+    padding-right: 2rem
+.crd--first
+  &::before
+    background-color: #F9E39F !important
+.crd--third
+  &::before
+    background-color: #F5D46F !important
+.crd--last
+  &::before
+    background-color: #F4CD57 !important
+.crd--first
+  &::before
+    border-top-left-radius: 30px
+.crd--last
+  &::before
+    border-bottom-left-radius: 30px

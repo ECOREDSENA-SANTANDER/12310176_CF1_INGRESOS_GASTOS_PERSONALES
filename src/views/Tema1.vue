@@ -101,7 +101,7 @@
         .col-lg-2.col-md-3
           img.mn-20.w-140px(src='@/assets/curso/temas/t1/7.png', alt='')
         .col-lg-10.col-md-9
-          p.text-white.p-3.p-lg-2.mb-0 Entender a fondo los conceptos de ingresos y gastos personales no solo permite ordenar las finanzas, sino que es el primer paso hacia la libertad financiera. Su adecuada conceptualización, medición y control, fomentan hábitos financieros saludables y sostenibles, claves en una economía cada vez más dinámica y exigente.
+          p.p-3.p-lg-2.mb-0 Entender a fondo los conceptos de ingresos y gastos personales no solo permite ordenar las finanzas, sino que es el primer paso hacia la libertad financiera. Su adecuada conceptualización, medición y control, fomentan hábitos financieros saludables y sostenibles, claves en una economía cada vez más dinámica y exigente.
 
 
   </template>

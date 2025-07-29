@@ -77,7 +77,7 @@
             img(src='@/assets/curso/temas/t2/tarj1-4.svg' alt='')
         .subt2.mb-3.m-auto
           h4.text-center.mb-0 Artista o creador de contenido
-        p.text-center Músicos, escritores, pintores, #[em influencers], y creadores de contenido digital (YouTube, TikTok, #[em blogs], etc.) que obtienen ingresos por ventas, regalías, patrocinios o monetización en plataformas.
+        p.text-center Músicos, escritores, pintores, #[em influencers], y creadores de contenido digital (YouTube, TikTok, blogs, etc.) que obtienen ingresos por ventas, regalías, patrocinios o monetización en plataformas.
       .tarjeta.bg4.bg-textura.p-4
         .row.justify-content-center.mb-3
           .col-6.col-md-7.col-lg-5
@@ -238,7 +238,7 @@
               .row.justify-content-center(titulo="")
                 .col-11
                   h4 Optimización de precios
-                  p Revisar y ajustar la estrategia de precios en función del valor percibido, la competencia y la disposición a pagar del cliente permite maximizar los márgenes de ganancia sin necesariamente incrementar los volúmenes de venta.
+                  p Revisar y ajustar la estrategia de precios en función del valor percibido, la competencia y la disposición a pagar del cliente, permite maximizar los márgenes de ganancia sin necesariamente incrementar los volúmenes de venta.
               .row.justify-content-center(titulo="")
                 .col-11
                   h4 Mejora de la experiencia del cliente
@@ -266,7 +266,7 @@
               .row.justify-content-center(titulo="")
                 .col-11
                   h4 Programas de fidelización y venta cruzada
-                  p Implementar estrategias para aumentar la recurrencia de compra y ofrecer productos complementarios (#[em upselling] y #[em cross-selling]) maximiza el valor de vida del cliente (#[em Customer Lifetime Value, CLV]).
+                  p Implementar estrategias para aumentar la recurrencia de compra y ofrecer productos complementarios (#[em upselling] y #[em cross-selling]) maximiza el valor de vida del cliente (#[em Customer Lifetime Value], CLV).
               .row.justify-content-center(titulo="")
                 .col-11
                   h4 Mejora de habilidades
@@ -370,7 +370,7 @@
           .crd_hover_txt--body.text-center
             h4.mb-3 Previsión
             p.mb-0 Los ingresos, ya provengan de trabajo dependiente o independiente, deben distribuirse de forma equilibrada entre el pago de obligaciones, la inversión futura y el ahorro. Esta gestión estratégica permite mantener la estabilidad financiera, generar nuevas oportunidades de crecimiento, mejorar la capacidad de respuesta ante emergencias económicas y construir un patrimonio sólido a lo largo del tiempo, fomentando así una cultura financiera sostenible, responsable y orientada al desarrollo personal, familiar y económico.
-    .row.mb-5.d-lg-none.d-block
+    .row.mb-5.d-md-none.d-block
       .col-12.mb-4
         h4.mb-3 Organización
         p.mb-0 Organizar los ingresos de manera efectiva requiere asegurar que estos sean consistentemente mayores que los gastos, generando un superávit que permita ahorrar, invertir y enfrentar imprevistos. Iniciar con un flujo de caja positivo es clave para evitar el endeudamiento y lograr estabilidad financiera. Para ello, es fundamental aplicar herramientas como presupuestos y registros que faciliten decisiones informadas, con el objetivo de no solo cubrir necesidades, sino también construir una base económica sólida y sostenible a largo plazo.

@@ -21,45 +21,45 @@
     p.mb-4 Los gastos pueden clasificarse en diferentes categorías según su naturaleza, periodicidad y nivel de importancia:
 
     TabsA.color-acento-botones.mb-4(data-aos="fade-down")
-      .tarjeta.bg2.p-4.py-lg-5(titulo="TIPOLOGÍA 1")
+      .tarjeta.bg2.p-4.py-lg-5(titulo="Tipología 1")
         .row.justify-content-center.align-items-center
           .col-lg-6.col-md-6.mb-3.mb-lg-0
-            h4 TIPOLOGÍA 1: gastos opcionales
+            h4 Tipología 1: gastos opcionales
             img(src="@/assets/curso/temas/t3/tab1-1.png")
           .col-lg-6.col-md-6            
             p Son aquellos gastos que no responden a una necesidad esencial o prioritaria, sino que están relacionados con preferencias, deseos o decisiones voluntarias del consumidor. Suelen ser variables y fácilmente eliminables o reducibles. Ejemplos incluyen entretenimiento, comidas fuera de casa o compras impulsivas.
-      .tarjeta.bg2.p-4.py-lg-5(titulo="TIPOLOGÍA 2")
+      .tarjeta.bg2.p-4.py-lg-5(titulo="Tipología 2")
         .row.justify-content-center.align-items-center
           .col-lg-6.col-md-6.mb-3.mb-lg-0
-            h4 TIPOLOGÍA 2: gastos esenciales o flexibles
+            h4 Tipología 2: gastos esenciales o flexibles
             img(src="@/assets/curso/temas/t3/tab1-2.png")
           .col-lg-6.col-md-6        
             p Corresponden a necesidades importantes para mantener una calidad de vida adecuada, aunque pueden ser ajustados o diferidos temporalmente según la disponibilidad financiera. Incluyen, por ejemplo, ropa, servicios de salud no urgentes, mantenimiento del hogar, entre otros.
-      .tarjeta.bg2.p-4.py-lg-5(titulo="TIPOLOGÍA 3")
+      .tarjeta.bg2.p-4.py-lg-5(titulo="Tipología 3")
         .row.justify-content-center.align-items-center
           .col-lg-6.col-md-6.mb-3.mb-lg-0
-            h4 TIPOLOGÍA 3: gastos fijos o recurrentes
+            h4 Tipología 3: gastos fijos o recurrentes
             img(src="@/assets/curso/temas/t3/tab1-3.png")
           .col-lg-6.col-md-6        
             p Son erogaciones periódicas, previsibles y generalmente ineludibles que tienen un monto establecido o relativamente constante, con vencimientos regulares. Ejemplos típicos son el arriendo, servicios públicos, cuotas de préstamos, seguros o suscripciones. Algunos pueden tener periodicidad distinta, como impuestos trimestrales o anuales.
-      .tarjeta.bg2.p-4.py-lg-5(titulo="TIPOLOGÍA 4")
+      .tarjeta.bg2.p-4.py-lg-5(titulo="Tipología 4")
         .row.justify-content-center.align-items-center
           .col-lg-6.col-md-6.mb-3.mb-lg-0
-            h4 TIPOLOGÍA 4: gastos imprevistos o de emergencia
+            h4 Tipología 4: gastos imprevistos o de emergencia
             img(src="@/assets/curso/temas/t3/tab1-4.png")
           .col-lg-6.col-md-6        
             p Se refieren a desembolsos no planificados que surgen como consecuencia de situaciones inesperadas (accidentes, enfermedades, reparaciones urgentes, etc.). Dado su impacto potencial en la estabilidad financiera, se recomienda mantener un fondo de reserva o ahorro de contingencia para afrontarlos.
-      .tarjeta.bg2.p-4.py-lg-5(titulo="TIPOLOGÍA 5")
+      .tarjeta.bg2.p-4.py-lg-5(titulo="Tipología 5")
         .row.justify-content-center.align-items-center
           .col-lg-6.col-md-6.mb-3.mb-lg-0
-            h4 TIPOLOGÍA 5: gastos discrecionales (autoindulgentes)
+            h4 Tipología 5: gastos discrecionales (autoindulgentes)
             img(src="@/assets/curso/temas/t3/tab1-5.png")
           .col-lg-6.col-md-6        
             p Aunque a veces se agrupan con los opcionales, se pueden distinguir como aquellos gastos voluntarios destinados al disfrute personal o al bienestar emocional. Son elegidos conscientemente para el placer o confort individual, como viajes, regalos o tratamientos estéticos. Su control es clave en una planificación financiera saludable.
-      .tarjeta.bg2.p-4.py-lg-5(titulo="TIPOLOGÍA 6")
+      .tarjeta.bg2.p-4.py-lg-5(titulo="Tipología 6")
         .row.justify-content-center.align-items-center
           .col-lg-6.col-md-6.mb-3.mb-lg-0
-            h4 TIPOLOGÍA 6: gastos hormiga
+            h4 Tipología 6: gastos hormiga
             img(src="@/assets/curso/temas/t3/tab1-6.png")
           .col-lg-6.col-md-6        
             p Son erogaciones de pequeño valor individual pero de alta frecuencia que, al acumularse, pueden representar una proporción significativa del gasto total sin ser fácilmente detectadas. Suelen pasar desapercibidas, por lo que requieren un seguimiento detallado. Ejemplos: cafés diarios, #[em snacks], aplicaciones de pago, propinas o transporte informal.
@@ -115,7 +115,7 @@
           .col-lg-9.col-7
             .subt2
               h3.mb-0 Deseo
-        p Corresponde a aquellos bienes o servicios que, aunque pueden mejorar el #[em confort] o el estilo de vida, no son indispensables para la supervivencia ni para el cumplimiento de funciones básicas. Los deseos suelen estar motivados por factores emocionales, sociales o culturales, y frecuentemente son influenciados por estrategias de #[em marketing] y tendencias de consumo. En muchos casos, responden a patrones aspiracionales dentro de una “sociedad de las apariencias”, donde el valor simbólico de los bienes, como estatus, imagen y pertenencia, pesa más que su utilidad real. Por ello, los deseos deben gestionarse con criterio para evitar un consumo innecesario que comprometa la estabilidad financiera.
+        p Corresponde a aquellos bienes o servicios que, aunque pueden mejorar el confort o el estilo de vida, no son indispensables para la supervivencia ni para el cumplimiento de funciones básicas. Los deseos suelen estar motivados por factores emocionales, sociales o culturales, y frecuentemente son influenciados por estrategias de #[em marketing] y tendencias de consumo. En muchos casos, responden a patrones aspiracionales dentro de una “sociedad de las apariencias”, donde el valor simbólico de los bienes, como estatus, imagen y pertenencia, pesa más que su utilidad real. Por ello, los deseos deben gestionarse con criterio para evitar un consumo innecesario que comprometa la estabilidad financiera.
 
     p Para identificar el tipo de gasto que se está realizando, es útil formularse una pregunta clave: ¿Este bien o servicio es verdaderamente indispensable para vivir con dignidad o mantenerme seguro, o responde únicamente a un deseo personal? Esta reflexión permite diferenciar si se trata de una necesidad esencial o de un gasto discrecional.
     p.mb-5 Una vez se realiza este análisis consciente, es posible clasificar adecuadamente el gasto y tomar decisiones financieras más responsables y alineadas con los objetivos personales o familiares.
@@ -216,12 +216,12 @@
     .mb-4(data-aos='fade')
       .titulo-sexto.color-secundario
         h5 Figura 1.
-        span Interpretación en plano y molde
+        span Plantilla de presupuesto personal
       .row.justify-content-center.mb-3
         .col-lg-7
           figure
             img(src="@/assets/curso/temas/t3/fig1.png", alt="Una plantilla de presupuesto personal dividida en dos secciones principales: 'Tus ingresos' y 'Tus gastos'. En la sección de ingresos se distinguen tres categorías: ingresos fijos, ingresos variables y otros ingresos, distribuidos por mes (Mes 1, Mes 2, etc.). Al final de esta sección se calcula el 'TOTAL INGRESOS (A)'. En la sección de gastos, se organiza en tres grupos: Gastos fijos o prioritarios: alimentos/mercado, arriendo, servicios públicos, transporte, ahorro y otros. Gastos variables o de segunda prioridad: salidas, ropa, viajes, regalos y otros. Deudas: préstamos, tarjeta de crédito y otras deudas. Al final de esta sección se calcula el 'TOTAL GASTOS (B)'. En la parte inferior de la plantilla se muestra el cálculo del 'FLUJO DE CAJA MENSUAL (A - B)', es decir, la diferencia entre ingresos y gastos para cada mes.")
-      figcaption Fuente: Tomado de Comfenalco Santander. 
+      figcaption Fuente: tomado de Comfenalco Santander. 
         a(:href="('https://www.comfenalcosantander.com.co/el-presupuesto-personal-tu-brujula-financiera-hacia-un-futuro-prospero')" target="_blank") https://www.comfenalcosantander.com.co/el-presupuesto-personal-tu-brujula-financiera-hacia-un-futuro-prospero
 
     .tarjeta.bg7.p-3.mb-5(data-aos="fade-down")
@@ -232,7 +232,7 @@
           .row.justify-content-between.align-items-center
             .col.mb-3.mb-sm-0
               h4.mb-1 Plantilla de presupuesto personal
-              p.mb-0 Le recomendamos visitar el siguiente sitio #[em web], donde encontrará disponible para descarga gratuita una plantilla de presupuesto personal. Esta herramienta le permitirá registrar y gestionar sus ingresos y egresos mensuales, facilitando una planificación financiera más eficiente.
+              p.mb-0 Le recomendamos visitar el siguiente sitio web, donde encontrará disponible para descarga gratuita una plantilla de presupuesto personal. Esta herramienta le permitirá registrar y gestionar sus ingresos y egresos mensuales, facilitando una planificación financiera más eficiente.
             .col-sm-auto
               a.boton.color-acento-botones.texto-blanco(:href="('https://www.comfenalcosantander.com.co/plantilla-de-presupuesto-personal')" target="_blank")
                 span Enlace web
@@ -417,7 +417,7 @@
       h3.ps-3.pe-5.mb-0 Comprar de manera inteligente
     
     p Al recibir ingresos, es común olvidar el esfuerzo que se requirió para obtenerlos, lo que puede llevar a gastar de manera impulsiva o innecesaria. Para evitar este error, es fundamental convertirse en un comprador inteligente: alguien que piensa, analiza y planifica antes de realizar una compra o modificar un rubro de gasto.
-    p.mb-4 En este sentido, es clave eliminar los gastos discrecionales, emocionales y “hormiga”, ya que estos suelen pasar desapercibidos pero afectan significativamente el presupuesto. Al reducirlos, se incrementa la capacidad de ahorro y se logra un mejor control financiero. Lo más importante es identificar y cambiar los hábitos que conducen al gasto innecesario.
+    p.mb-4 En este sentido, es clave eliminar los gastos discrecionales, emocionales y “hormiga”, ya que estos suelen pasar desapercibidos, pero afectan significativamente el presupuesto. Al reducirlos, se incrementa la capacidad de ahorro y se logra un mejor control financiero. Lo más importante es identificar y cambiar los hábitos que conducen al gasto innecesario.
 
     .py-4.py-md-0.py-lg-2
     .tarjeta.bg-color-acento-contenido.px-4.px-lg-5(data-aos="fade")

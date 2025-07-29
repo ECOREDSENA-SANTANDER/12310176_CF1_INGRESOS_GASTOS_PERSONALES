@@ -142,30 +142,30 @@ export default {
   },
   complementario: [
     {
-      tema: '1 Conceptualización: Ingresos y gastos personales',
+      tema: 'Conceptualización: ingresos y gastos personales',
       referencia:
-        'Exito Financiero. (2021, 18 marzo). La regla 60-10-10-20 para administrar tu dinero [Vídeo].  ',
+        'Exito Financiero. (2021, 18 marzo). La regla 60-10-10-20 para administrar tu dinero.  ',
       tipo: 'Video',
       link: 'https://youtu.be/RCJpt686Wjc',
     },
     {
-      tema: '2.4 Manejo adecuado de los ingresos ',
-      referencia: 'VALERZA. (2022, 16 agosto). Gastos emocionales [Vídeo].  ',
+      tema: 'Manejo adecuado de los ingresos ',
+      referencia: 'VALERZA. (2022, 16 agosto). Gastos emocionales.  ',
       tipo: 'Video',
       link: 'https://youtu.be/qlAXd9CY8c0',
     },
     {
-      tema: '3.1 Responsabilidad frente al gasto ',
+      tema: 'Responsabilidad frente al gasto ',
       referencia:
-        'Asobancaria, Superintendencia Financiera de Colombia, & Banca de las Oportunidades. (2018). Construir, avanzar y prosperar. [PDF]. Recuperado de  ',
+        'Asobancaria, Superintendencia Financiera de Colombia, & Banca de las Oportunidades. (2018). Construir, avanzar y prosperar.',
       tipo: 'PDF ',
       link:
         'https://www.bancadelasoportunidades.gov.co/sites/default/files/2017-06/Construir%2C%20Avanzar%20y%20Prosperar%20%20-%20WEB%20Completa%20-%20Final-final.pdf',
     },
     {
-      tema: '3.2. Estrategias para controlar el gasto',
+      tema: 'Estrategias para controlar el gasto',
       referencia:
-        'Alfaro, M., & Ernesto, G. (2012b). Ingresos y Costos, una propuesta para su análisis estratégico. Estudio de caso empresas colombianas. UNIVERSIDAD NACIONAL DE COLOMBIA. https://repositorio.unal.edu.co/handle/unal/9084 ',
+        'Mejía Alfaro, G.E. (2011). Ingresos y Costos, una propuesta para su análisis estratégico. Estudio de caso empresas colombianas. [Tesis de maestría, Universidad Nacional de Colombia]. Repositorio Institucional - Universidad Nacional de Colombia.',
       tipo: 'PDF ',
       link:
         'https://repositorio.unal.edu.co/bitstream/handle/unal/9084/Tesis_GEMejia.pdf?sequence=1&isAllowed=y',
@@ -212,7 +212,7 @@ export default {
         'plan diseñado para alcanzar objetivos económicos, como ahorro, inversión o reducción de deudas. ',
     },
     {
-      termino: 'Flujo de caja ',
+      termino: 'Flujo de caja',
       significado:
         'registro del dinero que entra y sale en un periodo determinado, útil para evaluar la salud financiera. ',
     },
@@ -250,12 +250,11 @@ export default {
     },
     {
       referencia:
-        'Comisión Nacional para la Protección y Defensa de los Usuarios de Servicios Financieros (CONDUSEF). (s.f.). Educación financiera para todos. Recuperado de: ',
-      link: 'https://www.gob.mx/condusef',
+        'Comisión Nacional para la Protección y Defensa de los Usuarios de Servicios Financieros (CONDUSEF). (s.f.). Educación financiera para todos.',
     },
     {
       referencia:
-        'Gitman, L. J., & Joehnk, M. D. (2015). Fundamentos de finanzas personales. Pearson Educación.Referencia clave para conceptos como ingresos, presupuesto, ahorro e inversión en el contexto de la planificación financiera.',
+        'Gitman, L. J., & Joehnk, M. D. (2015). Fundamentos de finanzas personales. Pearson Educación. Referencia clave para conceptos como ingresos, presupuesto, ahorro e inversión en el contexto de la planificación financiera.',
     },
     {
       referencia:
@@ -338,13 +337,13 @@ export default {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
-          nombre: ' ',
-          cargo: 'Validador y vinculador de recursos educativos digitales',
+          nombre: 'Erika Daniela Manrique Rueda',
+          cargo: 'Validadora y vinculadora de recursos educativos digitales',
           centro: 'Centro Agroturístico - Regional Santander',
         },
         {
-          nombre: ' ',
-          cargo: 'Evaluador para contenidos inclusivos y accesibles',
+          nombre: 'Erika Fernanda Mejía Pinzón',
+          cargo: 'Evaluadora para contenidos inclusivos y accesibles',
           centro: 'Centro Agroturístico - Regional Santander',
         },
       ],

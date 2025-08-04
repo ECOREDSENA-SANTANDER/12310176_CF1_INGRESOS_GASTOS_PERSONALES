@@ -250,11 +250,7 @@ export default {
     },
     {
       referencia:
-        'Comisión Nacional para la Protección y Defensa de los Usuarios de Servicios Financieros (CONDUSEF). (s.f.). Educación financiera para todos.',
-    },
-    {
-      referencia:
-        'Gitman, L. J., & Joehnk, M. D. (2015). Fundamentos de finanzas personales. Pearson Educación. Referencia clave para conceptos como ingresos, presupuesto, ahorro e inversión en el contexto de la planificación financiera.',
+        'Gitman, L. J., & Joehnk, M. D. (2015). Fundamentos de finanzas personales. Pearson Educación. ',
     },
     {
       referencia:
@@ -262,11 +258,11 @@ export default {
     },
     {
       referencia:
-        'Montes, M. (2013). La pirámide de Maslow y su aplicación en las finanzas personales. En Revista de Ciencias Sociales Aplicadas.Referencia explícita utilizada para las necesidades fisiológicas, de seguridad, afiliación, reconocimiento y autorrealización. ',
+        'Montes, M. (2013). La pirámide de Maslow y su aplicación en las finanzas personales. En Revista de Ciencias Sociales Aplicadas. ',
     },
     {
       referencia:
-        'Organización para la Cooperación y el Desarrollo Económicos (OCDE). (2017). PISA 2015 Results (Volume IV): Students’ Financial Literacy. OECD Publishing. ',
+        'Organización para la Cooperación y el Desarrollo Económicos (OCDE). (2017). PISA 2015 Results (Volume IV): Students’ Financial Literacy. OECD Publishing.',
       link: 'https://doi.org/10.1787/9789264270282-en',
     },
     {
@@ -275,11 +271,11 @@ export default {
     },
     {
       referencia:
-        'Sullivan, A., & Sheffrin, S. M. (2003). Economía: Principios y herramientas. Pearson Educación.Explica conceptos económicos fundamentales, incluyendo los ingresos desde un punto de vista macro y microeconómico. ',
+        'Sullivan, A., & Sheffrin, S. M. (2003). Economía: Principios y herramientas. Pearson Educación.  ',
     },
     {
       referencia:
-        'Vitt, L. A. et al. (2000). Personal Finance and the Rush to Competence: Financial Literacy Education in the U.S.Proporciona fundamentos sobre educación financiera como herramienta de empoderamiento y toma de decisiones inteligentes. ',
+        'Vitt, L. A. et al. (2000). Personal Finance and the Rush to Competence: Financial Literacy Education in the U.S.  ',
     },
   ],
   creditos: [

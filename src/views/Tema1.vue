@@ -88,7 +88,7 @@
         .col
           .row.justify-content-between.align-items-center
             .col.mb-3.mb-sm-0
-              h4.mb-1 ¿Qué son los ingresos, gastos y cuáles son los tuyos? | Curso de manejo del dinero
+              h4.mb-1 ¿Qué son los ingresos, gastos y cuáles son los tuyos? | Curso de Manejo del dinero 
               p.mb-0 Se invita a revisar el siguiente video, el cual aborda de manera clara y didáctica los conceptos esenciales de ingresos y gastos personales, elementos fundamentales para una adecuada gestión financiera.
             .col-sm-auto
               a.boton.color-acento-botones.texto-blanco(:href="('https://youtu.be/h0Cp6A1hN_M')" target="_blank")

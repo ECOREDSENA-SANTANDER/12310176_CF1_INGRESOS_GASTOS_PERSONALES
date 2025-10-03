@@ -28,8 +28,9 @@
             .col-lg-12
               figure
                 .video
-                  iframe(width="560" height="315" src="https://www.youtube.com/embed/_uAgrJLePbU?si=fViU-GKYAlz0QTfg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-              figcaption Video. Ingresos y gastos - Introducción
+                  iframe(width="560" height="315" src="https://www.youtube.com/embed/Js4FGhk8_pM?si=fxlkNKMKlbZtA2Nl" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+              figcaption Video. Gestión eficiente de ingresos y gastos
+
 
 </template>
 

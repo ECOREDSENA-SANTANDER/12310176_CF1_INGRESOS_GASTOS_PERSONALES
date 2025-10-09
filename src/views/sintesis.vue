@@ -4,7 +4,7 @@
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
     
     p La administración adecuada de los ingresos y gastos personales es un componente esencial para lograr estabilidad financiera y bienestar integral. En un entorno económico cada vez más incierto y cambiante, contar con educación financiera no solo permite tomar decisiones informadas sobre el uso del dinero, sino también anticiparse a imprevistos, evitar el sobreendeudamiento y construir un futuro sostenible. Esta síntesis reúne los conceptos fundamentales abordados en el componente formativo, proporcionando una visión clara y estructurada sobre la importancia de planificar, controlar y optimizar los recursos económicos disponibles a nivel personal. 
-
+    
     .row.justify-content-center
       .col-lg-11.mb-5.bgs.p-4.brad
         figure
